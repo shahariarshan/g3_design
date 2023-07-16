@@ -7,3 +7,67 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    padding-right: 30px;
+    list-style: none;
+    font-weight: 500px;
+    font-size: 18px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: var(--dark-02, #424242);
+}
+nav > ul{
+    display: flex;
+}
+.nav-title{
+    color: var(--dark-01, #131313);
+    /* text-align: center; */
+    font-family: Work Sans;
+    /* font-size: 45px; */
+font-style: normal;
+font-weight: 700;
+}
+/* banner-style */
+
+.banner-contant{
+max-width: 800px;
+text-align: center;
+margin: 0 auto;
+}
+.banner-header{
+    color: var(--dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700px;
+
+}
+.banner-description{
+    color: var(--dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400px;
+
+}
+.banner-button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 180px;
+    height: 64px;
+    flex-shrink: 0;
+    font-size: normal;
+    border-radius: 8px;
+    background: #FF900E;
+
+}
