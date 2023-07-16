@@ -114,8 +114,30 @@ main{
     font-size: 45px;
     font-weight: 700;
 }
-.feature-section > .my-image{
     
+.feature{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 40px;
+    align-items: center;
+   
+}
+.feature,.nav-title{
+    border left: ;: 4px solid #FF900E;
+    /* border-left: 5px solid #FF900E; */
+    margin-left: 20px;
+}
+.feature-image{
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.feature  .fea-head{
+    border: none;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
 .feature-description{
     color: var(--dark-03, #727272);
@@ -137,9 +159,9 @@ main{
     font-weight: 600;
 }
 .flex-card {
-   padding-top: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 .flex-card .card{
     border-radius: 8px;
@@ -150,9 +172,8 @@ main{
     padding: 40p 30px;
    
 }
-.flex-card > ,.card{
-    align-items: center;
    
+
 }
 .card-status{
     font-size: 45px;
@@ -188,7 +209,8 @@ main{
     .team-container ,
     .Features ,
     .flex-card,
-    .sponsporship
+    .sponsporship ,
+    .feature
     {
         flex-direction: column;
     }
@@ -210,10 +232,16 @@ main{
     align-items: center;
     gap: 40px;
     align-items: center;
-
+}
+.spn-end{
+    font-size: 15px;
+}
+.feature-image{
+    height: 150px;
+    width: 200px;
 }
    }
-}
+
 /* tablet */
 @media screen and (min-width:576px) and (max-width:960px) {
     nav ,
