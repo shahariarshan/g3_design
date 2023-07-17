@@ -219,6 +219,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     color: var(--dark-02, #424242);
     padding-top: 80px;
     font-weight: 400px;
+
 }
 
 
@@ -232,8 +233,9 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     }
     nav,
     .team-container ,
-    .Features ,
+    .feature ,
     .sponsporship ,
+    .feature-description,
      .flex-card 
     {
         flex-direction: column;
@@ -242,34 +244,56 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     .teams-images{
         grid-template-columns: 1fr;
     }
+    .team-container{
+        align-items: end;
+    }
    .some{
-    width: 20px;
+    font-size: 30px;
+    padding-right: 40px;
    }
    .feature-description{
     font-size: 16px;
     font-weight: 300;
-    line-height: 15px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 60px;
     
 }
 .sponsporship{
-    width: 400px;
+    padding-right: 10px;
+    width: 250px;
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
-    align-items: center;
+   
 }
 .spn-end{
-    font-size: 15px;
+    font-size: 10px;
+    text-align: center;
 }
-. .feature-image{
+.feature-image{
     flex-direction: column;
-    font-weight: 200px;
+}
+.feature{
+    width: 20px;
 }
 .banner-description{
-    font-weight: 20px;
-}
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 auto;
+    padding : 70px;
    }
-
+   .some{
+    padding-left: 60px;
+    align-items: center;
+   }
+   .feature-contant{
+    /* padding-left: 40px; */
+    flex-direction: row;
+    padding: 20px;
+   }
+}
 /* tablet */
 @media screen and (min-width:576px) and (max-width:960px) {
     nav ,
